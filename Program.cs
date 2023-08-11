@@ -6,7 +6,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your name?");
+            Console.WriteLine("What is your name?"); //hello there
             var name = Console.ReadLine();
             var date = DateTime.Now;
             Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {date:d} at {date:t}!");
